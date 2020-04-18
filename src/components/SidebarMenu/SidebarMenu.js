@@ -11,7 +11,7 @@ import AppMenu from "./AppMenu";
 
 const PageDashboard = () => (
   <Typography variant="h3" component="h1">
-    Dashboard Page
+    Dashboard Page ttt
   </Typography>
 );
 const PageOrders = () => (
