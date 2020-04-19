@@ -1,13 +1,19 @@
 import React from "react";
 import "./App.css";
-import DataFatchingOne from "./components/Hooks/DataFatchingOne";
-import DataFatchingTwo from "./components/Hooks/DataFatchingTwo";
+import ParentComponent from "./components/Hooks/CallbackHook/ParentComponent";
+import Counter from "./components/Hooks/MemoHook/Counter";
+import FocusInput from "./components/Hooks/UseRef/FocusInput";
+import ClassTimer from "./components/Hooks/UseRef/ClassTimer";
+import HookTimer from "./components/Hooks/UseRef/HookTimer";
 
 function App() {
   return (
     <div className="App">
-      {/* <DataFatchingOne /> */}
-      <DataFatchingTwo />
+      {/* <ParentComponent /> */}
+      {/* <Counter /> */}
+      {/* <FocusInput /> */}
+      <ClassTimer />
+      <HookTimer />
     </div>
   );
 }
